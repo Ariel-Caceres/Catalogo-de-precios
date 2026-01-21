@@ -2,35 +2,35 @@ const productos = [
     {
         id: 1,
         nombre: "Candado dorado 50mm",
-        precio: 0,
+        precio: 1800,
         rubro: "herramientas",
         img: "imgs/herramientas/candado-dorado-50mm.jpeg"
     },
     {
         id: 2,
         nombre: "Cepillo de acero rojo",
-        precio: 0,
+        precio: 900,
         rubro: "herramientas",
         img: "imgs/herramientas/cepillo-de-acero-rojo.jpeg"
     },
     {
         id: 3,
         nombre: "Cuchara albañil 8\"",
-        precio: 0,
+        precio: 3100,
         rubro: "herramientas",
         img: "imgs/herramientas/cichara-albañol-8``.jpeg"
     },
     {
         id: 4,
         nombre: "Cinta 5mt Giantop",
-        precio: 0,
+        precio: 1400,
         rubro: "herramientas",
         img: "imgs/herramientas/cinta-5mt-giantop.jpeg"
     },
     {
         id: 5,
         nombre: "Cinta 10mt Giantop",
-        precio: 0,
+        precio: 4200,
         rubro: "herramientas",
         img: "imgs/herramientas/cinta-10m-giantop.jpeg"
     },
@@ -44,21 +44,21 @@ const productos = [
     {
         id: 7,
         nombre: "Destornillador 6pcs taxi blister",
-        precio: 0,
+        precio: 2600,
         rubro: "herramientas",
         img: "imgs/herramientas/destor-6pc-taxi-blister.jpeg"
     },
     {
         id: 8,
         nombre: "Destornillador 21pcs",
-        precio: 0,
+        precio: 11700,
         rubro: "herramientas",
         img: "imgs/herramientas/destor-21pc.jpeg"
     },
     {
         id: 9,
         nombre: "Destornillador celular",
-        precio: 0,
+        precio: 2350,
         rubro: "herramientas",
         img: "imgs/herramientas/destor-celu.jpeg"
     },
@@ -128,168 +128,168 @@ const productos = [
     {
         id: 19,
         nombre: "Disco flap 100",
-        precio: 0,
+        precio: 850,
         rubro: "herramientas",
         img: "imgs/herramientas/disco-flap-100.jpeg"
     },
     {
         id: 20,
         nombre: "Disco flap 120",
-        precio: 0,
+        precio: 850,
         rubro: "herramientas",
         img: "imgs/herramientas/disco-flap-120.jpeg"
     },
     {
         id: 21,
         nombre: "Disco flap A-40",
-        precio: 0,
+        precio: 850,
         rubro: "herramientas",
         img: "imgs/herramientas/disco-flap-a-40.jpeg"
     },
     {
         id: 22,
         nombre: "Disco láser 115mm",
-        precio: 0,
+        precio: 1800,
         rubro: "herramientas",
         img: "imgs/herramientas/disco-lases-115mm.jpeg"
     },
     {
         id: 23,
         nombre: "Disco madera 30T bisso",
-        precio: 0,
+        precio: 3100,
         rubro: "herramientas",
         img: "imgs/herramientas/disco-madera-30t-bisso.jpeg"
     },
     {
         id: 24,
         nombre: "Disco madera 40DT 115mm",
-        precio: 0,
+        precio: 1800,
         rubro: "herramientas",
         img: "imgs/herramientas/DISCO-MADERA-40DT-115MM.jpeg"
     },
     {
         id: 25,
         nombre: "Disco turbo 4.5\" bisso",
-        precio: 0,
+        precio: 2150,
         rubro: "herramientas",
         img: "imgs/herramientas/DISCO-TURBO-4.5-BISSO.jpeg"
     },
     {
         id: 26,
         nombre: "Disco turbo 115mm",
-        precio: 0,
+        precio: 1800,
         rubro: "herramientas",
         img: "imgs/herramientas/disco-turbo-115mm.jpeg"
     },
     {
         id: 28,
         nombre: "Eslinga remolque acero 8mm",
-        precio: 0,
+        precio: 9600,
         rubro: "herramientas",
         img: "imgs/herramientas/eslinga-remolue-acero-8mm.jpeg"
     },
     {
         id: 29,
         nombre: "Espátula 3\" BS45",
-        precio: 0,
+        precio: 1650,
         rubro: "herramientas",
         img: "imgs/herramientas/espatula-3``-bs45.jpeg"
     },
     {
         id: 30,
         nombre: "Espátula 4\" BS46",
-        precio: 0,
+        precio: 1800,
         rubro: "herramientas",
         img: "imgs/herramientas/espatula-4``-bs46.jpeg"
     },
     {
         id: 31,
         nombre: "Espátula 6\" BS48",
-        precio: 0,
+        precio: 2400,
         rubro: "herramientas",
         img: "imgs/herramientas/espatula-6``-bs48.jpeg"
     },
     {
         id: 32,
         nombre: "Formón x4pcs bolsa",
-        precio: 0,
+        precio: 6500,
         rubro: "herramientas",
         img: "imgs/herramientas/formon-x4pc-bolsa.900183.jpeg"
     },
     {
         id: 33,
         nombre: "Hidrolavadora",
-        precio: 0,
+        precio: 45000,
         rubro: "herramientas",
         img: "imgs/herramientas/hidrolabadora.jpeg"
     },
     {
         id: 34,
         nombre: "Inflador compresor auto azul",
-        precio: 0,
+        precio: 13500,
         rubro: "herramientas",
         img: "imgs/herramientas/inflador-compresor-caja-azul-1521.jpeg"
     },
     {
         id: 35,
         nombre: "Juego destector de billetes",
-        precio: 0,
+        precio: 3000,
         rubro: "herramientas",
         img: "imgs/herramientas/lapiz-detector-de-billete.jpeg"
     },
     {
         id: 36,
         nombre: "Lija 100-120-180-80 amarillo",
-        precio: 0,
+        precio: 350,
         rubro: "herramientas",
         img: "imgs/herramientas/lija-100-120-180-80-amarillo.jpeg"
     },
     {
         id: 37,
         nombre: "Llave 3 bocas SA220",
-        precio: 0,
+        precio: 1650,
         rubro: "herramientas",
         img: "imgs/herramientas/llave-3-boca-y-saa220.jpeg"
     },
     {
         id: 38,
         nombre: "Llave Allen grande BS109",
-        precio: 0,
+        precio: 4200,
         rubro: "herramientas",
         img: "imgs/herramientas/llave-alen-grande-bs109.jpeg"
     },
     {
         id: 39,
         nombre: "Llave Allen mediana BS110",
-        precio: 0,
+        precio: 4900,
         rubro: "herramientas",
         img: "imgs/herramientas/llave-alen-mediana-bs110.jpeg"
     },
     {
         id: 40,
         nombre: "Llave Allen chica BS111",
-        precio: 0,
+        precio: 3600,
         rubro: "herramientas",
         img: "imgs/herramientas/llave-allen-chica-bs111.jpeg"
     },
     {
         id: 41,
         nombre: "Llaves combinadas x8pcs",
-        precio: 0,
+        precio: 19500,
         rubro: "herramientas",
         img: "imgs/herramientas/llave-combinada-x8pcs-bisso bs29.jpeg"
     },
     {
         id: 42,
         nombre: "Llaves combinadas x12pcs",
-        precio: 0,
+        precio: 26000,
         rubro: "herramientas",
         img: "imgs/herramientas/llave-combinada-x12pcs-2589.jpeg"
     },
     {
         id: 43,
         nombre: "Llaves combinadas x14pcs",
-        precio: 0,
+        precio: 31500,
         rubro: "herramientas",
         img: "imgs/herramientas/llave-combinada-x14pcs-2590.jpeg"
     },
@@ -303,14 +303,14 @@ const productos = [
     {
         id: 45,
         nombre: "Martillo 500gr Bisso",
-        precio: 0,
+        precio: 7200,
         rubro: "herramientas",
         img: "imgs/herramientas/martillo-500gr bisso.jpeg"
     },
     {
         id: 46,
         nombre: "Martillo de fibra 80oz",
-        precio: 0,
+        precio: 4900,
         rubro: "herramientas",
         img: "imgs/herramientas/martillo-de-fibra-80oz.jpeg"
     },
@@ -338,35 +338,35 @@ const productos = [
     {
         id: 48,
         nombre: "Soporte de tv 15 22 zo11 om",
-        precio: 0,
+        precio: 32500,
         rubro: "hogar-deco",
         img: "imgs/hogar-deco/soporte-de-tv-15-33-zo11-om.jpeg"
     },
     {
         id: 49,
         nombre: "Soporte de tv 26 55 p7 om",
-        precio: 0,
+        precio: 28000,
         rubro: "hogar-deco",
         img: "imgs/hogar-deco/soporte-de-tv-26-55-p7-om.jpeg"
     },
     {
         id: 50,
         nombre: "Timbre con enchufe",
-        precio: 0,
+        precio: 8000,
         rubro: "hogar-deco",
         img: "imgs/hogar-deco/timbre-con-enchufe.jpeg"
     },
     {
         id: 50,
         nombre: "Timbre pila y pila",
-        precio: 0,
+        precio: 6300,
         rubro: "hogar-deco",
         img: "imgs/hogar-deco/timbre-pila-y-pila.jpeg"
     },
     {
         id: 51,
         nombre: "Linterna recargable caja verde",
-        precio: 0,
+        precio: 4700,
         rubro: "iluminacion",
         img: "imgs/iluminacion/linterna-recargable-caja-verde.jpeg"
     },
@@ -380,49 +380,49 @@ const productos = [
     {
         id: 53,
         nombre: "Panel 12w calido cuadrado redondo",
-        precio: 0,
+        precio: 3600,
         rubro: "iluminacion",
         img: "imgs/iluminacion/panel-12wts-calido-cuadrado-redondo.jpeg"
     },
     {
         id: 54,
         nombre: "Reflector 10w nivhus",
-        precio: 0,
+        precio: 4500,
         rubro: "iluminacion",
         img: "imgs/iluminacion/reflector-10w-nivhus.jpeg"
     },
     {
         id: 55,
         nombre: "Reflector 30w nivhus",
-        precio: 0,
+        precio: 7800,
         rubro: "iluminacion",
         img: "imgs/iluminacion/reflector-30w-nivhus.jpeg"
     },
     {
         id: 56,
         nombre: "Ducha de mano rory",
-        precio: 0,
+        precio: 6300,
         rubro: "griferia",
         img: "imgs/griferia/ducha-de-mano-rory.jpeg"
     },
     {
         id: 57,
         nombre: "Griferia f319",
-        precio: 0,
+        precio: 8500,
         rubro: "griferia",
         img: "imgs/griferia/griferia-f319.jpeg"
     },
     {
         id: 58,
         nombre: "Griferia ss 3009",
-        precio: 0,
+        precio: 30000,
         rubro: "griferia",
         img: "imgs/griferia/griferia-ss-3009.jpeg"
     },
     {
         id: 59,
         nombre: "Pico j acero inoxidable 900298",
-        precio: 0,
+        precio: 3800,
         rubro: "griferia",
         img: "imgs/griferia/pico-j-acero-inoxidable-900298.jpeg"
     },
@@ -430,9 +430,9 @@ const productos = [
     {
         id: 60,
         nombre: "Chaleco verde y naranja",
-        precio: 0,
+        precio: 1980,
         rubro: "bici-y-moto",
-        img: "imgs/bici-y-moto/chaleco-verde-y-naranja.jpeg"
+        img: "imgs/seguridad/chaleco-verde-y-naranja.jpeg"
     },
     {
         id: 61,
@@ -444,28 +444,28 @@ const productos = [
     {
         id: 62,
         nombre: "Parche numero 2",
-        precio: 0,
+        precio: 1800,
         rubro: "bici-y-moto",
         img: "imgs/bici-y-moto/parche-numero-2.jpeg"
     },
     {
         id: 63,
         nombre: "Parche numero 3",
-        precio: 0,
+        precio: 2400,
         rubro: "bici-y-moto",
         img: "imgs/bici-y-moto/parche-numero-3.jpeg"
     },
     {
         id: 64,
         nombre: "Parche numero 4",
-        precio: 0,
+        precio: 3000,
         rubro: "bici-y-moto",
         img: "imgs/bici-y-moto/parche-numero-4.jpeg"
     },
     {
         id: 65,
         nombre: "Parche solucion caja",
-        precio: 0,
+        precio: 7200,
         rubro: "bici-y-moto",
         img: "imgs/bici-y-moto/parche-solucion-caja.jpeg"
     }

@@ -48,6 +48,7 @@ header {
 }
 
 #carrito {
+    display: flex;
     padding-left: 20px;
     align-items: center;
     background: white;
@@ -60,6 +61,8 @@ header {
 .oculto {
     display: none;
 }
+
+
 
 .item {
     display: flex;
