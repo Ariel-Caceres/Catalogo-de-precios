@@ -1359,9 +1359,10 @@ const onChangeHanlder = () => {
         let productosEncontrados = productos.filter(p =>
             p.nombre.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(palabra.toLowerCase())
         )
-        console.log(productosEncontrados);
-
         renderProductos(productosEncontrados);
+        if (productosEncontrados.length == 0) {
+            contenedor.innerHTML = `<span style="text-align:center">No se encontraron productos..</span>`
+        }
     })
 }
 onChangeHanlder()
