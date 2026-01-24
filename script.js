@@ -1357,7 +1357,7 @@ const onChangeHanlder = () => {
         let palabra = e.target.value
 
         let productosEncontrados = productos.filter(p =>
-            p.nombre.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(palabra)
+            p.nombre.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(palabra.toLowerCase())
         )
         console.log(productosEncontrados);
 
