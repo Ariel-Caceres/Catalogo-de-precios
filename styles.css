@@ -174,16 +174,17 @@ main {
     justify-content: space-between;
     padding: 2px;
     border-radius: 20px;
+    font-size: 20px;
 }
 
 .buscador input {
+    font-size: 15px;
     background-color: white;
     width: 100%;
     outline: 0;
     border: 0;
     border-radius: 20px;
     padding: 5px;
-    font-size: 15px;
 }
 
 
