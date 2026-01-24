@@ -11,30 +11,35 @@
 <body>
 
     <header>
-        <h1>🛍️ Catálogo</h1>
-        <!-- <div id="carrito-btn">🛒 Carrito (<span id="cantidad">0</span>)</div> -->
+
+        <a href="#top" id="subir">Subir ⬆</a>
+        <div>
+            <h1>🛍️ Catálogo</h1>
+        </div>
+        <div class="buscar-btn">
+            <span>
+                Buscar
+            </span>
+            <div class="buscador">
+                <input type="text" id="input">
+                <span>🔍</span>
+            </div>
+        </div>
     </header>
 
     <main class="main">
         <div class="filtros">
-            <button data-rubro="todos" class="activo">Todos</button>
+            <button data-rubro="todos">Todos</button>
             <button data-rubro="herramientas">Herramientas</button>
             <button data-rubro="iluminacion">Iluminación</button>
             <button data-rubro="hogar-deco">Hogar</button>
-            <button data-rubro="griferia">griferia</button>
+            <button data-rubro="griferia">Grifería</button>
             <button data-rubro="bici-y-moto">Bici y Moto</button>
         </div>
 
         <section id="productos" class="grid"></section>
 
-        <!-- <section id="carrito">
-            <div class="cart">
-                <h2>Carrito</h2>
-                <div id="items"></div>
-                <h3>Total: $<span id="total">0</span></h3>
-                <button id="vaciar">Vaciar carrito</button>
-            </div>
-        </section> -->
+
     </main>
 
     <script src="script.js"></script>

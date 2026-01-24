@@ -1348,21 +1348,23 @@ const carritoDiv = document.getElementById("carrito");
 const itemsDiv = document.getElementById("items");
 const totalSpan = document.getElementById("total");
 const cantidadSpan = document.getElementById("cantidad");
+const input = document.getElementById("input");
+const subir = document.getElementById("subir");
 
-let carrito = [];
 
-const calnum = (productos) => {
-    numero = 0
-    productos.forEach(p => {
-        if (p.rubro == "herramientas") {
-            numero += 1
-        }
+const onChangeHanlder = () => {
+    input.addEventListener("input", (e) => {
+        let palabra = e.target.value
 
-    }
-    )
-    console.log(numero);
+        let productosEncontrados = productos.filter(p =>
+            p.nombre.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(palabra)
+        )
+        console.log(productosEncontrados);
+
+        renderProductos(productosEncontrados);
+    })
 }
-calnum(productos)
+onChangeHanlder()
 
 function renderProductos(lista) {
     contenedor.innerHTML = "";
@@ -1376,9 +1378,10 @@ function renderProductos(lista) {
         <img src="${p.img}" alt="${p.nombre}">
         </div>
         
-        <h3>${p.nombre}</h3>
+        <h3 class="nombre">${p.nombre}</h3>
         <p>Rubro: ${p.rubro}</p>
-        <p>Precio: $${p.precio}</p>
+        <span >Precio:</span>
+        <span  class="precio">$${p.precio}</span>
         `;
 
         contenedor.appendChild(card);
@@ -1412,7 +1415,14 @@ botones.forEach(btn => {
     });
 });
 
+const btnSubir = document.getElementById("subir")
 
+const toggleSubir = () => {
+    btnSubir.style.display = window.scrollY > 1800 ? "flex" : "none"
+}
+
+window.addEventListener("scroll", toggleSubir)
+window.addEventListener("load", toggleSubir)
 
 
 
