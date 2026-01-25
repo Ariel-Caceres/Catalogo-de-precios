@@ -136,7 +136,7 @@ main {
 }
 
 .filtros button {
-    border: 1px solid #ddd;
+    border: 1px solid black;
     background: white;
     padding: 0.6rem 0.8rem;
     cursor: pointer;
@@ -188,10 +188,12 @@ main {
     border: 0;
     border-radius: 20px;
     padding: 5px;
+    margin-left: 10px;
 }
 
 .lupa {
     margin-right: 5px;
+    padding-bottom: 5px;
 }
 
 .no-results {

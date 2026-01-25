@@ -10,7 +10,6 @@ const botones = document.querySelectorAll(".filtros button");
 const onChangeHanlder = () => {
     input.addEventListener("input", (e) => {
         let palabra = e.target.value
-
         let productosEncontrados = productos.filter(p =>
             p.nombre.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(palabra.toLowerCase())
         )
@@ -26,6 +25,12 @@ const onChangeHanlder = () => {
        
 `
         }
+        input.addEventListener("keydown", (e) => {
+            if (e.key === "Enter") {
+                input.blur()
+            }
+        })
+
     })
 }
 
