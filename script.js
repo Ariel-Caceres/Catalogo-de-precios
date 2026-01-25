@@ -43,6 +43,15 @@ const toggleSubir = () => {
     subir.style.display = window.scrollY > 1800 ? "flex" : "none"
 }
 
+const conversor = {
+    "herramientas": "🔧",
+    "griferia": "💧",
+    "hogar-deco": "🏠",
+    "bici-y-moto": "🏍",
+    "iluminacion": "💡"
+
+}
+console.log(conversor["herramientas"]);
 
 
 function renderProductos(lista) {
@@ -60,9 +69,9 @@ function renderProductos(lista) {
         </div>
         
         <h3 class="nombre">${p.nombre}</h3>
-        <p>Rubro: ${p.rubro}</p>
-        <span>Precio:</span>
-        <span  class="precio">$${String(p.precio)}</span>
+        <span class="rubro"> ${p.rubro.toUpperCase()}${conversor[p.rubro]}</span>
+        <span class="precio-name">Precio:</span>
+        <span  class="precio">$${p.precio}</span>
 `;
 
             contenedor.appendChild(card);
@@ -70,6 +79,7 @@ function renderProductos(lista) {
 
     });
 }
+// console.log(productos.filter(p => p.precio == 0));
 
 
 botones.forEach(btn => {
@@ -89,7 +99,6 @@ botones.forEach(btn => {
         }
     });
 });
-
 
 
 
