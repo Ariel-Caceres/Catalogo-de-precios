@@ -165,12 +165,29 @@ main {
 }
 
 
+.select {
+    width: auto;
+    height: 30px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
 
+.select select {
+    border: 1px solid black;
+    background: white;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all ease-in-out 200ms;
+    width: 130px;
+    font-size: 16px;
+}
 
 .filtros {
     justify-content: center;
     display: flex;
     gap: 0.5rem;
+
     padding: 0 1rem;
     flex-wrap: wrap;
     padding: 20px;
@@ -280,7 +297,6 @@ main {
 }
 
 
-
 .contacto {
     display: flex;
     align-items: center;
@@ -296,6 +312,22 @@ main {
     animation: nudge 1.8s ease-in-out infinite;
     font-size: 20px;
 }
+
+
+.wsp-float {
+    position: fixed;
+    bottom: 200px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    font-size: 28px;
+    padding: 14px;
+    border-radius: 50%;
+    text-decoration: none;
+    z-index: 10;
+}
+
+
 
 @keyframes floatPhone {
     0% {
@@ -346,17 +378,24 @@ main {
         width: 70%;
     }
 
+    header .logo-contacto {
+        width: 70%;
+        justify-content: center;
+    }
+
     header .logo-contacto .logo {
         text-align: center;
         width: 100%;
     }
 
     header .logo-contacto .contacto {
-        text-align: center;
-        margin-left: 10px;
+        width: 100%;
+        justify-content: center;
     }
 
     main {
         width: 100%;
     }
+
+
 }
