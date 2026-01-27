@@ -204,7 +204,11 @@ input.addEventListener("input", (e) => {
     aplicarFiltros();
 });
 
-
+input.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+        input.blur()
+    }
+})
 
 
 window.volver = () => {
